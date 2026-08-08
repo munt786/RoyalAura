@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Royal Aura Events — Custom Luxury Styling & Animations
+   ========================================================================== */
+
+/* Custom Gold Metallic Text Gradient */
+.gold-gradient-text {
+    background: linear-gradient(135deg, #FFF5D0 0%, #F5D061 30%, #E5A93C 70%, #AA771C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Gold Glowing Borders & Hover Effects */
+.gold-border-glow {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.gold-border-glow:hover {
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+    border-color: rgba(229, 169, 60, 0.8);
+}
+
+/* Glassmorphism Background */
+.bg-glass {
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* Solid Gold Luxury CTA Button */
+.gold-button {
+    background: linear-gradient(135deg, #FCD34D 0%, #D4AF37 50%, #B8860B 100%);
+    color: #000000;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+    touch-action: manipulation;
+}
+
+.gold-button:hover, .gold-button:active {
+    background: linear-gradient(135deg, #FFE484 0%, #E5A93C 50%, #D4AF37 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(212, 175, 55, 0.5);
+}
+
+/* Gold Outline CTA Button */
+.gold-outline-button {
+    border: 1px solid #D4AF37;
+    color: #D4AF37;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+    touch-action: manipulation;
+}
+
+.gold-outline-button:hover, .gold-outline-button:active {
+    background: #D4AF37;
+    color: #000000;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Ambient Gold Radial Glow Background Elements */
+.ambient-gold-glow {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+    pointer-events: none;
+}
+
+/* Custom Checkbox Pill Styling */
+.service-pill-checkbox input:checked ~ span {
+    color: #FCD34D;
+    font-weight: 700;
+}
+.service-pill-checkbox input:checked ~ div {
+    border-color: #D4AF37;
+    background: rgba(212, 175, 55, 0.15);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+/* Custom Select Option Styling */
+select option {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 12px;
+}
+
+/* Dark Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 4px;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+}
