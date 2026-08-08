@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
@@ -11,6 +11,11 @@
     <meta name="keywords" content="Wedding Entry Nagpur, Cold Pyro Nagpur, Event Planner Kamptee, Couple Entry Nagpur, Wedding Effects Nagpur, DJ Services Kamptee, Haldi Mehndi Decoration Nagpur, Luxury Wedding Entries">
     <meta name="author" content="Royal Aura Events">
     <meta name="robots" content="index, follow">
+
+    <!-- Favicon / Browser Tab Bar Icon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/favicon.svg">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -33,1158 +38,1169 @@
     <!-- FontAwesome Icons CDN (v6.5.1) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        gold: {
-                            50: '#fffbeb',
-                            100: '#fef3c7',
-                            200: '#fde68a',
-                            300: '#fcd34d',
-                            400: '#fbbf24',
-                            500: '#d4af37', /* Primary Royal Gold */
-                            600: '#b8860b',
-                            700: '#92400e',
-                            800: '#78350f',
-                            900: '#451a03',
-                            glow: '#ffd700',
-                            accent: '#e5a93c'
-                        },
-                        dark: {
-                            950: '#050505',
-                            900: '#0a0a0a',
-                            850: '#111111',
-                            800: '#18181b',
-                            700: '#27272a'
-                        }
-                    },
-                    fontFamily: {
-                        serif: ['Playfair Display', 'serif'],
-                        royal: ['Cinzel', 'serif'],
-                        sans: ['Plus Jakarta Sans', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-
-    <!-- Custom Stylesheet -->
+    <!-- Compiled Tailwind CSS & Custom Luxury Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 
     <!-- Custom JavaScript Engine -->
     <script src="script.js" defer></script>
 </head>
-<body class="bg-dark-950 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-black min-h-screen flex flex-col relative overflow-x-hidden">
+<body class="bg-dark-950 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-black min-h-screen flex flex-col relative w-full overflow-x-hidden">
 
-    <!-- Ambient Gold Radial Glow Background Elements -->
-    <div class="ambient-gold-glow w-[500px] h-[500px] -top-32 -left-32 z-0"></div>
-    <div class="ambient-gold-glow w-[600px] h-[600px] top-1/3 -right-48 z-0"></div>
-    <div class="ambient-gold-glow w-[400px] h-[400px] bottom-10 left-10 z-0"></div>
+    <!-- Main Wrapper to Enforce 100% Boundary Clipping -->
+    <div class="w-full max-w-full overflow-x-hidden relative flex flex-col min-h-screen">
 
-    <!-- Top Announcement Bar -->
-    <div class="bg-gradient-to-r from-amber-950 via-dark-850 to-amber-950 border-b border-amber-500/20 text-xs py-2 px-4 text-center text-amber-200/90 z-50 flex items-center justify-center gap-2">
-        <span class="inline-block w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-        <span>Now Booking Weddings & Grand Celebrations for 2026 Season in <strong>Nagpur | Kamptee</strong></span>
-        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20check%20availability!" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-block underline hover:text-white font-semibold ml-2">Book Slot &rarr;</a>
-    </div>
+        <!-- Ambient Gold Radial Glow Background Elements (Clipped safely inside wrapper) -->
+        <div class="ambient-gold-glow w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] -top-32 -left-32 z-0"></div>
+        <div class="ambient-gold-glow w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] top-1/3 -right-32 z-0"></div>
+        <div class="ambient-gold-glow w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] bottom-10 left-10 z-0"></div>
 
-    <!-- ================= NAVBAR ================= -->
-    <header class="sticky top-0 z-50 bg-glass border-b border-amber-500/20 transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            
-            <!-- Brand Logo -->
-            <a href="#home" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-full border border-amber-500/40 bg-dark-900 flex items-center justify-center text-gold-400 group-hover:border-gold-400 group-hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] transition-all">
-                    <i class="fa-solid fa-crown text-lg"></i>
+        <!-- Top Announcement Bar -->
+        <div class="bg-gradient-to-r from-amber-950 via-dark-850 to-amber-950 border-b border-amber-500/20 text-xs py-2 px-4 text-center text-amber-200/90 z-50 flex items-center justify-center gap-2 w-full">
+            <span class="inline-block w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+            <span>Now Booking Weddings & Grand Celebrations for 2026 Season in <strong>Nagpur | Kamptee</strong></span>
+            <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20check%20availability!" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-block underline hover:text-white font-semibold ml-2">Book Slot &rarr;</a>
+        </div>
+
+        <!-- ================= NAVBAR ================= -->
+        <header class="sticky top-0 z-50 bg-glass border-b border-amber-500/20 transition-all duration-300 w-full">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+                
+                <!-- Brand Logo -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full border border-amber-500/40 bg-dark-900 flex items-center justify-center text-gold-400 group-hover:border-gold-400 group-hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] transition-all">
+                        <i class="fa-solid fa-crown text-lg"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-2xl font-royal tracking-wider font-bold">
+                            <span class="text-white">Royal</span><span class="gold-gradient-text ml-1.5">Aura</span>
+                        </span>
+                        <span class="text-[10px] tracking-[0.2em] text-amber-300/70 uppercase -mt-1 font-sans">Events</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links (Shown on 1024px+ screens for zero congestion) -->
+                <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-medium">
+                    <a href="#home" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Home</a>
+                    <a href="#services" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Services</a>
+                    <a href="#why-us" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Why Us</a>
+                    <a href="#gallery" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Gallery</a>
+                    <a href="#faq" class="text-slate-200 hover:text-gold-400 transition-colors py-1">FAQ</a>
+                    <a href="#contact" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Contact</a>
+                </nav>
+
+                <!-- Navbar Action Button -->
+                <div class="hidden lg:flex items-center gap-3 xl:gap-4">
+                    <a href="tel:7020729676" class="hidden xl:flex text-xs text-amber-200/80 hover:text-white items-center gap-1.5 px-3 py-1.5 rounded-full border border-amber-500/20 bg-dark-900/60">
+                        <i class="fa-solid fa-phone text-gold-400"></i>
+                        <span>7020729676</span>
+                    </a>
+                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20inquire%20about%20wedding%20services!" target="_blank" rel="noopener noreferrer" class="gold-button px-5 py-2.5 rounded-full text-xs uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
                 </div>
-                <div class="flex flex-col">
-                    <span class="text-2xl font-royal tracking-wider font-bold">
-                        <span class="text-white">Royal</span><span class="gold-gradient-text ml-1.5">Aura</span>
-                    </span>
-                    <span class="text-[10px] tracking-[0.2em] text-amber-300/70 uppercase -mt-1 font-sans">Events</span>
-                </div>
-            </a>
 
-            <!-- Desktop Navigation Links (Routes mapped to #home) -->
-            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <a href="#home" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Home</a>
-                <a href="#services" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Services</a>
-                <a href="#why-us" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Why Us</a>
-                <a href="#gallery" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Gallery</a>
-                <a href="#faq" class="text-slate-200 hover:text-gold-400 transition-colors py-1">FAQ</a>
-                <a href="#contact" class="text-slate-200 hover:text-gold-400 transition-colors py-1">Contact</a>
-            </nav>
-
-            <!-- Navbar Action Button -->
-            <div class="hidden sm:flex items-center gap-4">
-                <a href="tel:7020729676" class="text-xs text-amber-200/80 hover:text-white flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-amber-500/20 bg-dark-900/60">
-                    <i class="fa-solid fa-phone text-gold-400"></i>
-                    <span>7020729676</span>
-                </a>
-                <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20inquire%20about%20wedding%20services!" target="_blank" rel="noopener noreferrer" class="gold-button px-5 py-2.5 rounded-full text-xs uppercase tracking-wider flex items-center gap-2">
-                    <i class="fa-brands fa-whatsapp text-sm"></i>
-                    <span>Chat on WhatsApp</span>
-                </a>
-            </div>
-
-            <!-- Mobile Hamburger Button -->
-            <button id="mobile-menu-btn" aria-label="Toggle Navigation Menu" class="md:hidden text-amber-400 hover:text-white p-2 focus:outline-none">
-                <i class="fa-solid fa-bars-staggered text-2xl"></i>
-            </button>
-        </div>
-
-        <!-- Mobile Dropdown Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-dark-900/95 border-b border-amber-500/30 px-6 py-6 space-y-4 backdrop-blur-xl">
-            <a href="#home" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Home</a>
-            <a href="#services" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Our Services</a>
-            <a href="#why-us" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Why Royal Aura</a>
-            <a href="#gallery" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Photo Gallery</a>
-            <a href="#faq" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">FAQ</a>
-            <a href="#contact" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Contact Us</a>
-            
-            <div class="pt-4 border-t border-amber-500/20 flex flex-col gap-3">
-                <a href="tel:7020729676" class="w-full py-3 text-center rounded-xl bg-dark-800 border border-amber-500/30 text-amber-300 font-semibold flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-phone"></i> Call 7020729676
-                </a>
-                <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20inquire%20about%20wedding%20services!" target="_blank" rel="noopener noreferrer" class="gold-button w-full py-3 text-center rounded-xl text-sm font-bold flex items-center justify-center gap-2">
-                    <i class="fa-brands fa-whatsapp text-lg"></i> Chat on WhatsApp
-                </a>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- ================= HOME SECTION (ID: #home) ================= -->
-    <section id="home" class="relative py-20 lg:py-32 overflow-hidden flex items-center justify-center cursor-pointer" title="Click anywhere for fireworks!">
-        
-        <!-- Live Fireworks Canvas Overlay -->
-        <canvas id="fireworks-canvas" class="absolute inset-0 z-10 pointer-events-none w-full h-full"></canvas>
-
-        <!-- Background Overlay Image with Dark Vignette -->
-        <div class="absolute inset-0 z-0">
-            <img src="assets/hero.jpg" alt="Royal Wedding Entry Cold Pyro Fog Effect" class="w-full h-full object-cover object-center opacity-30 scale-105 filter brightness-75">
-            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/80 to-transparent"></div>
-            <div class="absolute inset-0 bg-gradient-to-r from-dark-950 via-transparent to-dark-950"></div>
-        </div>
-
-        <div class="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            
-            <!-- Category Badge -->
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/40 bg-dark-900/80 text-amber-300 text-xs sm:text-sm font-medium mb-8 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
-                <i class="fa-solid fa-wand-magic-sparkles text-gold-400"></i>
-                <span>Premium Wedding Experience | Nagpur & Kamptee</span>
-            </div>
-
-            <!-- Main H1 Title -->
-            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-royal font-extrabold tracking-tight leading-tight mb-6">
-                Turning Weddings Into <br class="hidden sm:inline">
-                <span class="gold-gradient-text drop-shadow-[0_4px_20px_rgba(212,175,55,0.2)]">Royal Celebrations</span>
-            </h1>
-
-            <!-- Subtitle Paragraph -->
-            <p class="max-w-3xl mx-auto text-base sm:text-xl text-slate-300 leading-relaxed font-light mb-10">
-                Experience the magic of premium pyrotechnics, luxury entries, and stunning visual effects that make your special day truly unforgettable.
-            </p>
-
-            <!-- CTA Action Buttons & Fireworks Trigger -->
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-12">
-                <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20chat%20and%20book%20a%20luxury%20wedding%20entry!" target="_blank" rel="noopener noreferrer" class="gold-button w-full sm:w-auto px-8 py-4 rounded-full text-sm uppercase tracking-wider flex items-center justify-center gap-3">
-                    <i class="fa-brands fa-whatsapp text-xl"></i>
-                    <span>Chat on WhatsApp</span>
-                </a>
-                <a href="#services" class="gold-outline-button w-full sm:w-auto px-8 py-4 rounded-full text-sm font-semibold tracking-wider flex items-center justify-center gap-2">
-                    <span>Explore Services</span>
-                    <i class="fa-solid fa-arrow-down-long text-xs"></i>
-                </a>
-                <button id="trigger-fireworks-btn" class="px-5 py-3.5 rounded-full border border-amber-400/40 bg-amber-500/10 text-amber-300 text-xs font-semibold hover:bg-amber-500 hover:text-black transition-all flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-firework text-gold-400"></i>
-                    <span>Launch Fireworks ✨</span>
+                <!-- Mobile Hamburger Button (Shows below 1024px) -->
+                <button id="mobile-menu-btn" aria-label="Toggle Navigation Menu" class="lg:hidden text-amber-400 hover:text-white p-2 focus:outline-none">
+                    <i class="fa-solid fa-bars-staggered text-2xl"></i>
                 </button>
             </div>
 
-            <!-- Location Badge Pill -->
-            <div class="inline-flex items-center gap-2 text-xs sm:text-sm text-slate-400 bg-dark-900/60 px-5 py-2.5 rounded-full border border-amber-500/20 backdrop-blur-md">
-                <i class="fa-solid fa-location-dot text-gold-400"></i>
-                <span>Primary Locations: <strong class="text-amber-200 font-semibold">Nagpur | Kamptee</strong> & Surrounding Regions</span>
-            </div>
-
-            <!-- Stats Bar -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 max-w-4xl mx-auto pt-10 border-t border-amber-500/20">
-                <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
-                    <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">50+</div>
-                    <div class="text-xs text-slate-400 uppercase tracking-wider">Grand Entries Designed</div>
-                </div>
-                <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
-                    <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">100%</div>
-                    <div class="text-xs text-slate-400 uppercase tracking-wider">Indoor Cold Pyro Safety</div>
-                </div>
-                <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
-                    <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">4.9★</div>
-                    <div class="text-xs text-slate-400 uppercase tracking-wider">Client Rating</div>
-                </div>
-                <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
-                    <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">Full FX</div>
-                    <div class="text-xs text-slate-400 uppercase tracking-wider">Sound, Light & Fog</div>
+            <!-- Mobile Dropdown Menu (Active below 1024px) -->
+            <div id="mobile-menu" class="hidden lg:hidden bg-dark-900/95 border-b border-amber-500/30 px-6 py-6 space-y-4 backdrop-blur-xl">
+                <a href="#home" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Home</a>
+                <a href="#services" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Our Services</a>
+                <a href="#why-us" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Why Royal Aura</a>
+                <a href="#gallery" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Photo Gallery</a>
+                <a href="#faq" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">FAQ</a>
+                <a href="#contact" class="mobile-nav-link block text-lg font-medium text-slate-200 hover:text-gold-400">Contact Us</a>
+                
+                <div class="pt-4 border-t border-amber-500/20 flex flex-col gap-3">
+                    <a href="tel:7020729676" class="w-full py-3 text-center rounded-xl bg-dark-800 border border-amber-500/30 text-amber-300 font-semibold flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone"></i> Call 7020729676
+                    </a>
+                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20inquire%20about%20wedding%20services!" target="_blank" rel="noopener noreferrer" class="gold-button w-full py-3 text-center rounded-xl text-sm font-bold flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Chat on WhatsApp
+                    </a>
                 </div>
             </div>
-
-        </div>
-    </section>
+        </header>
 
 
-    <!-- ================= SERVICES SECTION ================= -->
-    <section id="services" class="py-20 bg-dark-900/80 relative z-10 border-t border-b border-amber-500/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- ================= HOME SECTION ================= -->
+        <section id="home" class="relative py-16 sm:py-24 lg:py-32 overflow-hidden flex items-center justify-center cursor-pointer w-full" title="Click anywhere for fireworks!">
             
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-14">
-                <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">What We Offer</span>
-                <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
-                    Our Royal <span class="gold-gradient-text">Services</span>
-                </h2>
-                <p class="text-slate-300 text-base sm:text-lg font-light">
-                    From spectacular bride & groom entries to complete wedding visual solutions, we bring your grandest vision to life with creativity, elegance, and precision.
-                </p>
-                
-                <!-- Filter Tabs -->
-                <div class="flex flex-wrap items-center justify-center gap-2 mt-8">
-                    <button class="service-tab-btn active px-4 py-2 rounded-full text-xs font-semibold bg-gold-500 text-black shadow-lg transition-all" data-filter="all">All Services (11)</button>
-                    <button class="service-tab-btn px-4 py-2 rounded-full text-xs font-semibold bg-dark-800 border border-amber-500/20 text-slate-300 hover:text-gold-400 transition-all" data-filter="entries">Grand Entries</button>
-                    <button class="service-tab-btn px-4 py-2 rounded-full text-xs font-semibold bg-dark-800 border border-amber-500/20 text-slate-300 hover:text-gold-400 transition-all" data-filter="pyro">Pyrotechnics & FX</button>
-                    <button class="service-tab-btn px-4 py-2 rounded-full text-xs font-semibold bg-dark-800 border border-amber-500/20 text-slate-300 hover:text-gold-400 transition-all" data-filter="decor">Decor & Planning</button>
-                </div>
+            <!-- Live Fireworks Canvas Overlay -->
+            <canvas id="fireworks-canvas" class="absolute inset-0 z-10 pointer-events-none w-full h-full max-w-full"></canvas>
+
+            <!-- Background Overlay Image with Dark Vignette -->
+            <div class="absolute inset-0 z-0">
+                <img src="assets/hero.jpg" alt="Royal Wedding Entry Cold Pyro Fog Effect" class="w-full h-full object-cover object-center opacity-30 scale-105 filter brightness-75">
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/80 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-dark-950 via-transparent to-dark-950"></div>
             </div>
 
-            <!-- Responsive 3-Column Grid for All 11 Services -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
                 
-                <!-- 1. Wedding Entry -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/hero.jpg" alt="Wedding Entry Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Signature Entry</span>
+                <!-- Category Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/40 bg-dark-900/80 text-amber-300 text-xs sm:text-sm font-medium mb-8 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
+                    <i class="fa-solid fa-wand-magic-sparkles text-gold-400"></i>
+                    <span>Premium Wedding Experience | Nagpur & Kamptee</span>
+                </div>
+
+                <!-- Main H1 Title -->
+                <h1 class="text-3xl sm:text-6xl lg:text-7xl font-royal font-extrabold tracking-tight leading-tight mb-6">
+                    Turning Weddings Into <br class="hidden sm:inline">
+                    <span class="gold-gradient-text drop-shadow-[0_4px_20px_rgba(212,175,55,0.2)]">Royal Celebrations</span>
+                </h1>
+
+                <!-- Subtitle Paragraph -->
+                <p class="max-w-3xl mx-auto text-sm sm:text-xl text-slate-300 leading-relaxed font-light mb-10 px-2">
+                    Experience the magic of premium pyrotechnics, luxury entries, and stunning visual effects that make your special day truly unforgettable.
+                </p>
+
+                <!-- CTA Action Buttons & Fireworks Trigger (Symmetric Layout) -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 mb-10 w-full max-w-2xl mx-auto">
+                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20chat%20and%20book%20a%20luxury%20wedding%20entry!" target="_blank" rel="noopener noreferrer" class="gold-button w-full sm:w-auto px-6 py-3.5 rounded-full text-xs sm:text-sm uppercase tracking-wider flex items-center justify-center gap-2.5">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                    <a href="#services" class="gold-outline-button w-full sm:w-auto px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider flex items-center justify-center gap-2">
+                        <span>Explore Services</span>
+                        <i class="fa-solid fa-arrow-down-long text-xs"></i>
+                    </a>
+                    <button id="trigger-fireworks-btn" class="w-full sm:w-auto px-6 py-3.5 rounded-full border border-amber-400/40 bg-amber-500/10 text-amber-300 text-xs sm:text-sm font-semibold hover:bg-amber-500 hover:text-black transition-all flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-firework text-gold-400"></i>
+                        <span>Launch Fireworks ✨</span>
+                    </button>
+                </div>
+
+                <!-- Location Badge Pill (Perfect Alignment on Mobile & Desktop) -->
+                <div class="flex items-center justify-center w-full my-4">
+                    <div class="inline-flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm text-slate-200 bg-dark-900/90 px-4 py-2.5 sm:px-6 sm:py-3 rounded-2xl sm:rounded-full border border-amber-500/30 backdrop-blur-md max-w-full text-center shadow-lg">
+                        <i class="fa-solid fa-location-dot text-gold-400 text-sm flex-shrink-0"></i>
+                        <span class="leading-relaxed">Primary Locations: <strong class="text-amber-200 font-semibold">Nagpur | Kamptee</strong> & Surrounding Regions</span>
+                    </div>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 max-w-4xl mx-auto pt-8 border-t border-amber-500/20">
+                    <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
+                        <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">50+</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-wider">Grand Entries Designed</div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
+                        <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">100%</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-wider">Indoor Cold Pyro Safety</div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
+                        <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">4.9★</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-wider">Client Rating</div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-dark-900/50 border border-amber-500/10">
+                        <div class="text-2xl sm:text-3xl font-royal font-bold text-gold-400 mb-1">Full FX</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-wider">Sound, Light & Fog</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= SERVICES SECTION ================= -->
+        <section id="services" class="py-20 bg-dark-900/80 relative z-10 border-t border-b border-amber-500/10 w-full overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <!-- Section Header -->
+                <div class="text-center max-w-3xl mx-auto mb-14">
+                    <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">What We Offer</span>
+                    <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
+                        Our Royal <span class="gold-gradient-text">Services</span>
+                    </h2>
+                    <p class="text-slate-300 text-base sm:text-lg font-light">
+                        From spectacular bride & groom entries to complete wedding visual solutions, we bring your grandest vision to life with creativity, elegance, and precision.
+                    </p>
+                    
+                    <!-- Filter Tabs -->
+                    <div class="flex flex-wrap items-center justify-center gap-2 mt-8">
+                        <button class="service-tab-btn active px-4 py-2 rounded-full text-xs font-semibold bg-gold-500 text-black shadow-lg transition-all" data-filter="all">All Services (12)</button>
+                        <button class="service-tab-btn px-4 py-2 rounded-full text-xs font-semibold bg-dark-800 border border-amber-500/20 text-slate-300 hover:text-gold-400 transition-all" data-filter="entries">Grand Entries</button>
+                        <button class="service-tab-btn px-4 py-2 rounded-full text-xs font-semibold bg-dark-800 border border-amber-500/20 text-slate-300 hover:text-gold-400 transition-all" data-filter="pyro">Pyrotechnics & FX</button>
+                        <button class="service-tab-btn px-4 py-2 rounded-full text-xs font-semibold bg-dark-800 border border-amber-500/20 text-slate-300 hover:text-gold-400 transition-all" data-filter="decor">Decor & Planning</button>
+                    </div>
+                </div>
+
+                <!-- Responsive 3-Column Grid for All 11 Services -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- 1. Wedding Entry -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/hero.jpg" alt="Wedding Entry Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Signature Entry</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-crown text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Wedding Entry</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Grand Entrance • Cold Pyro • Floral Walkway</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Make a jaw-dropping entrance on your special day. Customized themes including red carpet walk, floral canopy, cold sparkler fountains, and low fog effects.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal carpet & floral arches</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Synchronized cold pyro sparklers</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Dense matka dry-ice low fog</li>
+                            </ul>
                         </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Wedding%20Entry%20service!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Wedding Entry
+                        </a>
+                    </div>
+
+                    <!-- 2. Pyro Service -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/cold_pyro.jpg" alt="Pyro Service Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Stage Show</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-fire-flame-curved text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Pyro Service</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Stage Pyrotechnics • Fanwheels • Sparks</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Spectacular pyrotechnic displays for stage entries, ring exchange, and varmala moments. Safe, smokeless indoor sparklers and outdoor fireworks displays.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Indoor-safe sparkler fountains</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Rotating fanwheel pyro setups</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Remote wireless trigger control</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Pyro%20Service!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Pyro Service
+                        </a>
+                    </div>
+
+                    <!-- 3. Couple Entry -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/couple_entry.jpg" alt="Couple Entry Effects Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Trending</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-heart text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Couple Entry</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Revolving Stage • Fog • Balloon Release</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Unforgettable couple entry concepts featuring rotating stages, floating cloud matka fog, paper blasts, and synchronized cold sparkler tunnels.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Hydraulic revolving couple platform</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Floor-hugging dry ice clouds</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Elegant balloon drop & rose petal rain</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Couple%20Entry!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Couple Entry
+                        </a>
+                    </div>
+
+                    <!-- 4. Event Planning -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/decor_stage.jpg" alt="Event Planner Kamptee" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">End-To-End</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-clipboard-list text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Event Planning</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Bespoke Weddings • Full Coordination</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Complete wedding management in Nagpur & Kamptee. We handle timeline, vendor setup, entry choreography, and seamless execution so you can relax.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Dedicated event manager</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> On-site coordination team</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Customized wedding themes</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20discuss%20Event%20Planning!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Inquire Event Planning
+                        </a>
+                    </div>
+
+                    <!-- 5. Wedding Effects -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/dj_lighting.jpg" alt="Wedding Effects Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Visual FX</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-wand-magic-sparkles text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Wedding Effects</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">CO2 Guns • Confetti Blast • Bubble Storm</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                High-energy visual effects including CO2 jet cannons, metallic confetti showers, snow machines, and bubble fog for sangeet & varmala.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> CO2 jet cryo blast guns</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Metallic gold paper blasts</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Bubble and snow shower machines</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Wedding%20Effects!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Visual Effects
+                        </a>
+                    </div>
+
+                    <!-- 6. Cold Pyro -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/cold_pyro.jpg" alt="Cold Pyro Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">100% Indoor Safe</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-fire text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Cold Pyro</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Non-Hazardous • Smokeless • Cold Spark</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Guaranteed safety with zero heat and zero smoke. Perfect for indoor AC banquet halls in Nagpur and Kamptee during cake cutting & varmala.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Touch-safe cold sparkler technology</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> No smoke, smell, or toxic fumes</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Safe for clothing & decor</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Cold%20Pyro!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Cold Pyro
+                        </a>
+                    </div>
+
+                    <!-- 7. Wedding Decoration -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/decor_stage.jpg" alt="Wedding Decoration Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Luxury Decor</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-gem text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Wedding Decoration</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Mandap Decor • Stage • Floral Gates</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Grand wedding stage setup, floral mandap decoration, vintage chandeliers, entrance arches, and royal seating for brides & grooms.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal floral mandap designs</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Warm LED ambient lighting</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Custom backdrop styling</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Wedding%20Decoration!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Decoration
+                        </a>
+                    </div>
+
+                    <!-- 8. DJ Services -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/dj_lighting.jpg" alt="DJ Services Kamptee" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Sound & Lights</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-compact-disc text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">DJ Services</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Sharpy Lights • Line Array Sound • Truss</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                High-power DJ setup with crisp bass line arrays, intelligent sharpys moving head lights, laser projection, and LED dance floor.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> High-wattage line array bass</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Sharpy beam & spot light shows</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Sangeet & Baraat DJ setup</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20DJ%20Services!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book DJ Setup
+                        </a>
+                    </div>
+
+                    <!-- 9. Photography Services -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/couple_entry.jpg" alt="Photography Services Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Cinematic</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-camera-retro text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Photography Services</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Cinematic Films • 4K Drone • Reels</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Capture every golden moment in high definition. Candid wedding photography, cinematic teaser films, Instagram reels, and aerial drone footage.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Candid & traditional photos</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> 4K drone entry footage</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Fast teaser reels delivery</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Photography%20Services!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Photography
+                        </a>
+                    </div>
+
+                    <!-- 10. Luxury Wedding Entries -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/vintage_car.jpg" alt="Luxury Wedding Entries Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Royal VIP</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-car-side text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Luxury Wedding Entries</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Vintage Car • Royal Palki • Chariot</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Grand VIP entries featuring classic vintage decorated cars, hydraulic flower palki/palanquin for brides, and royal buggi chariot entries.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Classic vintage decorated cars</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal bridal palki palanquin</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Custom concept designs</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Luxury%20Wedding%20Entries!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Royal Entry
+                        </a>
+                    </div>
+
+                    <!-- 11. Haldi Mehndi Decoration -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/haldi_decor.jpg" alt="Haldi Mehndi Decoration Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Traditional</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-spa text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Haldi Mehndi Decoration</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Marigold Styling • Brass Urli • Cushions</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                Bright, joyful Haldi and Mehndi setups filled with yellow marigold garlands, traditional brass urli pots, flower petal shower, and colorful seating.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Fresh marigold drapes & backdrop</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal yellow seating sofa</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Brass flower urli setup</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Haldi%20Mehndi%20Decor!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Haldi Decor
+                        </a>
+                    </div>
+
+                    <!-- 12. Kids Mickey Mouse Bouncy Castle & Theme Entries -->
+                    <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
+                        <div>
+                            <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
+                                <img src="assets/bouncy_castle.jpg" alt="Mickey Mouse Bouncy Castle Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Kids Bouncy Castle</span>
+                            </div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
+                                    <i class="fa-solid fa-child-reaching text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Mickey Bouncy & Theme Entries</h3>
+                                    <p class="text-xs text-amber-300/80 font-medium">Mickey Air Bouncer • Jumping Slide • Mascots</p>
+                                </div>
+                            </div>
+                            <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
+                                High-energy air-filled Mickey Mouse inflatable bouncy castle, climbing slides, character mascots, and fun theme entries for kids parties & wedding celebrations.
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-400 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Mickey Mouse inflatable air bouncer & slide</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Character mascots & theme-based entries</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Safe indoor/outdoor setup with attendant</li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Mickey%20Mouse%20Bouncy%20Castle%20%26%20Theme%20Entries!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> Book Bouncy Castle
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Custom Packages Banner -->
+                <div class="mt-16 p-8 rounded-3xl bg-gradient-to-r from-amber-950/60 via-dark-850 to-amber-950/60 border border-amber-500/30 text-center relative overflow-hidden shadow-2xl">
+                    <div class="relative z-10 max-w-3xl mx-auto">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-gold-400 mx-auto mb-4 text-2xl shadow-[0_0_20px_rgba(212,175,55,0.3)]">
+                            <i class="fa-solid fa-box-open"></i>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-royal font-bold text-white mb-3">Custom Wedding Packages</h3>
+                        <p class="text-slate-300 text-sm sm:text-base font-light mb-6">
+                            Can't find exactly what you need? We create bespoke wedding packages tailored to your unique vision, venue layout, and budget.
+                        </p>
+                        <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20need%20a%20Custom%20Wedding%20Package%20for%20my%20event!" target="_blank" rel="noopener noreferrer" class="gold-button inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                            <span>Contact us for custom solutions</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= WHY ROYAL AURA EVENTS SECTION ================= -->
+        <section id="why-us" class="py-20 bg-dark-950 relative z-10 w-full overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Why Choose Us</span>
+                    <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
+                        Why <span class="gold-gradient-text">Royal Aura Events?</span>
+                    </h2>
+                    <p class="text-slate-300 text-base sm:text-lg font-light">
+                        We don't just plan events — we create unforgettable experiences that become cherished memories for a lifetime.
+                    </p>
+                </div>
+
+                <!-- 6 Grid Value Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1 -->
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-royal font-bold text-white mb-2">Premium Wedding Experience</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                Every detail is crafted to perfection, ensuring your celebration exudes luxury, elegance, and timeless charm.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-royal font-bold text-white mb-2">Trending Instagram Style Entries</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                Create viral-worthy moments with our signature entry concepts that set social media on fire and delight your guests.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-royal font-bold text-white mb-2">Professional Event Team</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                Our experienced team ensures flawless execution and safety, so you can focus on enjoying your special day stress-free.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                            <i class="fa-solid fa-wallet"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-royal font-bold text-white mb-2">Affordable Luxury Packages</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                Premium quality doesn't have to break the bank. We offer highly competitive pricing for exceptional, high-end services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-royal font-bold text-white mb-2">Complete Wedding Solutions</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                From pyrotechnics & dry ice fog to photography and DJ sound, we handle everything under one roof for a seamless experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-royal font-bold text-white mb-2">Service Across Nagpur & Kamptee</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                Proudly serving the entire Nagpur and Kamptee regions with prompt on-time setup and reliable event delivery.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= PHOTO & VIDEO GALLERY SECTION ================= -->
+        <section id="gallery" class="py-20 bg-dark-900/60 relative z-10 border-t border-amber-500/10 w-full overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-14">
+                    <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Visual Showcase</span>
+                    <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
+                        Royal <span class="gold-gradient-text">Moments Gallery</span>
+                    </h2>
+                    <p class="text-slate-300 text-base font-light">
+                        Take a peak at real wedding entries, cold pyro displays, and luxury decor concepts crafted by Royal Aura Events.
+                    </p>
+                    <p class="text-[11px] text-amber-300/60 italic mt-2">* Images shown are for representative and concept demonstration purposes.</p>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
+                        <img src="assets/hero.jpg" alt="Grand Bride & Groom Fog Entry" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
+                            <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Cold Pyro & Fog</span>
+                            <h3 class="text-lg font-royal font-bold text-white">Grand Couple Entrance Walkway</h3>
+                        </div>
+                    </div>
+
+                    <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
+                        <img src="assets/cold_pyro.jpg" alt="Cold Pyro Sparkler Display" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
+                            <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Indoor Pyrotechnics</span>
+                            <h3 class="text-lg font-royal font-bold text-white">Rotating Pyro Fanwheel Show</h3>
+                        </div>
+                    </div>
+
+                    <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
+                        <img src="assets/vintage_car.jpg" alt="Vintage Car Bride & Groom Entry" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
+                            <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Luxury Vehicle Entry</span>
+                            <h3 class="text-lg font-royal font-bold text-white">Classic Vintage Car Entry</h3>
+                        </div>
+                    </div>
+
+                    <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
+                        <img src="assets/haldi_decor.jpg" alt="Traditional Haldi Decoration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
+                            <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Haldi & Mehndi</span>
+                            <h3 class="text-lg font-royal font-bold text-white">Vibrant Marigold Floral Setup</h3>
+                        </div>
+                    </div>
+
+                    <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
+                        <img src="assets/dj_lighting.jpg" alt="DJ Lighting and Sound Setup" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
+                            <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">DJ & Sharpy Lighting</span>
+                            <h3 class="text-lg font-royal font-bold text-white">Sangeet Concert Night Setup</h3>
+                        </div>
+                    </div>
+
+                    <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
+                        <img src="assets/decor_stage.jpg" alt="Varmala Stage Effects" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
+                            <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Stage & Mandap</span>
+                            <h3 class="text-lg font-royal font-bold text-white">Royal Mandap & Stage Lighting</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= FAQ SECTION ================= -->
+        <section id="faq" class="py-20 bg-dark-950 relative z-10 border-t border-amber-500/10 w-full overflow-hidden">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-14">
+                    <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Got Questions?</span>
+                    <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
+                        Frequently Asked <span class="gold-gradient-text">Questions</span>
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base font-light">
+                        Everything you need to know about booking our cold pyro, luxury entries, and event services in Nagpur & Kamptee.
+                    </p>
+                </div>
+
+                <!-- Accordion Items -->
+                <div class="space-y-4">
+                    
+                    <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
+                        <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
+                            <span>Is Cold Pyro safe for indoor AC banquet halls?</span>
+                            <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
+                            Yes, 100%! Cold pyro sparklers emit cold sparks that generate zero smoke, zero heat, and zero toxic fumes. They are completely safe for clothes, skin, and indoor air-conditioned banquet halls.
+                        </div>
+                    </div>
+
+                    <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
+                        <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
+                            <span>Do you provide services in both Nagpur and Kamptee?</span>
+                            <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
+                            Absolutely! We serve all major wedding lawns, banquet halls, and outdoor venues across Nagpur, Kamptee, and nearby regional areas with full logistics and on-time setup.
+                        </div>
+                    </div>
+
+                    <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
+                        <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
+                            <span>How far in advance should we book our wedding entry?</span>
+                            <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
+                            Because prime wedding dates in Nagpur & Kamptee fill up fast, we recommend booking at least 2 to 4 weeks prior to your event date. However, we also accept urgent bookings subject to availability.
+                        </div>
+                    </div>
+
+                    <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
+                        <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
+                            <span>Can we customize the entry concept according to our theme?</span>
+                            <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
+                            Yes! Whether you prefer a traditional royal theme with vintage cars and dhol, or a modern futuristic entry with CO2 cryo guns and rotating pyro fanwheels, we customize every single detail to match your vision.
+                        </div>
+                    </div>
+
+                    <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
+                        <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
+                            <span>What is included in the low-fog matka entry effect?</span>
+                            <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
+                            Our low-fog dry ice machine creates a thick, floor-hugging cloud of white fog that stays low to the ground without rising up into faces or camera lenses. It creates the magical effect of floating on clouds!
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= BOOKING & CONTACT SECTION ================= -->
+        <section id="contact" class="py-20 bg-dark-900 relative z-10 border-t border-amber-500/10 w-full overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Get In Touch</span>
+                    <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
+                        Book Your <span class="gold-gradient-text">Royal Experience</span>
+                    </h2>
+                    <p class="text-slate-300 text-base sm:text-lg font-light">
+                        Ready to make your wedding truly unforgettable? Contact us today for a free consultation and instant WhatsApp quotation.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    
+                    <!-- Contact Info Card -->
+                    <div class="lg:col-span-5 rounded-3xl bg-dark-850 border border-amber-500/30 p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+                        <div class="absolute -right-16 -bottom-16 w-48 h-48 rounded-full bg-amber-500/10 blur-2xl pointer-events-none"></div>
+
+                        <div>
+                            <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 shadow-[0_0_15px_rgba(212,175,55,0.3)]">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <h3 class="text-2xl font-royal font-bold text-white mb-3">Let's Create Magic Together</h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed mb-8">
+                                Every celebration deserves to be extraordinary. Share your vision with us, and we'll bring it to life with our signature royal touch.
+                            </p>
+
+                            <div class="space-y-6 mb-8">
+                                
+                                <!-- Phone -->
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 flex-shrink-0">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-xs text-slate-400 block font-medium">Direct Phone / Call</span>
+                                        <a href="tel:7020729676" class="text-lg font-bold text-gold-400 hover:underline">7020729676</a>
+                                    </div>
+                                </div>
+
+                                <!-- Service Areas -->
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 flex-shrink-0">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-xs text-slate-400 block font-medium">Service Areas</span>
+                                        <span class="text-base font-semibold text-slate-200">Nagpur • Kamptee & Surrounding Regions</span>
+                                    </div>
+                                </div>
+
+                                <!-- Availability -->
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 flex-shrink-0">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-xs text-slate-400 block font-medium">Availability</span>
+                                        <span class="text-sm font-medium text-slate-200">Available year-round. Early booking recommended.</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <a href="tel:7020729676" class="gold-button w-full py-4 rounded-2xl text-center text-sm uppercase tracking-wider font-bold flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Call Now: 7020729676</span>
+                        </a>
+                    </div>
+
+                    <!-- Instant WhatsApp Quotation Form -->
+                    <div class="lg:col-span-7 rounded-3xl bg-dark-850 border border-amber-500/30 p-8 shadow-2xl">
+                        <h3 class="text-2xl font-royal font-bold text-white mb-2 flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-gold-400 text-3xl"></i>
+                            <span>Instant WhatsApp Booking Request</span>
+                        </h3>
+                        <p class="text-xs text-slate-400 mb-8 leading-relaxed">Select your required services and click send to connect directly on WhatsApp with pre-filled details.</p>
+
+                        <form id="whatsapp-form" class="space-y-6">
+                            
+                            <!-- Row 1: Name & Phone -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Your Full Name</label>
+                                    <input type="text" id="form-name" required placeholder="Enter your full name" class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Mobile Number</label>
+                                    <input type="tel" id="form-phone" required placeholder="Enter 10-digit mobile number" class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400">
+                                </div>
+                            </div>
+
+                            <!-- Row 2: Date & Location -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Event Date</label>
+                                    <input type="date" id="form-date" required class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 cursor-pointer">
+                                </div>
+                                
+                                <div>
+                                    <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Event Location</label>
+                                    <div class="relative w-full">
+                                        <select id="form-location" class="w-full appearance-none pl-4 pr-12 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 cursor-pointer font-medium shadow-inner">
+                                            <option value="Nagpur">Nagpur</option>
+                                            <option value="Kamptee">Kamptee</option>
+                                            <option value="Nearby Region">Nearby Region / Other</option>
+                                        </select>
+                                        <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gold-400 flex items-center justify-center">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 3: Select Services Required -->
+                            <div>
+                                <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-3">Select Required Services</label>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                                    
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Wedding Entry" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-crown text-gold-400 text-sm"></i>
+                                            <span class="truncate">Wedding Entry</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Pyro Service" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-fire-flame-curved text-gold-400 text-sm"></i>
+                                            <span class="truncate">Pyro Service</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Couple Entry" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-heart text-gold-400 text-sm"></i>
+                                            <span class="truncate">Couple Entry</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Event Planning" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-clipboard-list text-gold-400 text-sm"></i>
+                                            <span class="truncate">Event Planning</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Wedding Effects" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-wand-magic-sparkles text-gold-400 text-sm"></i>
+                                            <span class="truncate">Wedding Effects</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Cold Pyro" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-fire text-gold-400 text-sm"></i>
+                                            <span class="truncate">Cold Pyro</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Wedding Decoration" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-gem text-gold-400 text-sm"></i>
+                                            <span class="truncate">Wedding Decoration</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="DJ Services" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-compact-disc text-gold-400 text-sm"></i>
+                                            <span class="truncate">DJ Services</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Photography Services" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-camera-retro text-gold-400 text-sm"></i>
+                                            <span class="truncate">Photography</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Luxury Wedding Entries" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-car-side text-gold-400 text-sm"></i>
+                                            <span class="truncate">Luxury Entry</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Haldi Mehndi Decoration" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-spa text-gold-400 text-sm"></i>
+                                            <span class="truncate">Haldi Mehndi Decor</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="service-pill-checkbox cursor-pointer relative group">
+                                        <input type="checkbox" value="Kids & Theme Entries" class="sr-only service-checkbox">
+                                        <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
+                                            <i class="fa-solid fa-masks-theater text-gold-400 text-sm"></i>
+                                            <span class="truncate">Kids & Theme Entries</span>
+                                        </div>
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <!-- Row 4: Custom Message -->
+                            <div>
+                                <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Venue Name / Specific Requests</label>
+                                <textarea id="form-message" rows="3" placeholder="Enter venue name in Nagpur or Kamptee, estimated guest count, or special preferences..." class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400"></textarea>
+                            </div>
+
+                            <button type="submit" class="gold-button w-full py-3.5 sm:py-4.5 px-4 rounded-xl sm:rounded-2xl text-xs sm:text-sm font-bold uppercase tracking-wider flex items-center justify-center gap-2.5 shadow-[0_0_25px_rgba(212,175,55,0.3)] transition-all">
+                                <i class="fa-brands fa-whatsapp text-lg sm:text-2xl text-black flex-shrink-0"></i>
+                                <span class="text-center leading-tight">Send WhatsApp Booking Request</span>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= FOOTER SECTION ================= -->
+        <footer class="bg-dark-950 text-slate-400 py-16 border-t border-amber-500/20 relative z-10 w-full overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <!-- Top Footer Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-amber-500/10">
+                    
+                    <!-- Brand Info -->
+                    <div class="md:col-span-5 space-y-4">
+                        <a href="#home" class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full border border-amber-500/40 bg-dark-900 flex items-center justify-center text-gold-400">
                                 <i class="fa-solid fa-crown text-lg"></i>
                             </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Wedding Entry</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Grand Entrance • Cold Pyro • Floral Walkway</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Make a jaw-dropping entrance on your special day. Customized themes including red carpet walk, floral canopy, cold sparkler fountains, and low fog effects.
+                            <span class="text-2xl font-royal tracking-wider font-bold">
+                                <span class="text-white">Royal</span><span class="gold-gradient-text ml-1.5">Aura</span> <span class="text-sm font-normal text-amber-200/80">Events</span>
+                            </span>
+                        </a>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-sm font-light">
+                            Turning Weddings Into Royal Celebrations. Premier providers of grand entries, cold pyrotechnics, heavy low fog, DJ audio-visual setups, and luxury decorations in Nagpur & Kamptee.
                         </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal carpet & floral arches</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Synchronized cold pyro sparklers</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Dense matka dry-ice low fog</li>
+                        <div class="flex items-center gap-4 pt-2">
+                            <a href="https://wa.me/917020729676" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-black transition-all">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                            </a>
+                            <a href="tel:7020729676" class="w-10 h-10 rounded-full bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-black transition-all">
+                                <i class="fa-solid fa-phone text-base"></i>
+                            </a>
+                            <a href="#contact" class="w-10 h-10 rounded-full bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-black transition-all">
+                                <i class="fa-solid fa-envelope text-base"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Navigation Links -->
+                    <div class="md:col-span-3 space-y-3">
+                        <h4 class="text-white font-royal font-bold text-base tracking-wider">Quick Navigation</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="#home" class="hover:text-gold-400 transition-colors">Home</a></li>
+                            <li><a href="#services" class="hover:text-gold-400 transition-colors">Our 11 Signature Services</a></li>
+                            <li><a href="#why-us" class="hover:text-gold-400 transition-colors">Why Royal Aura Events</a></li>
+                            <li><a href="#gallery" class="hover:text-gold-400 transition-colors">Event Gallery</a></li>
+                            <li><a href="#faq" class="hover:text-gold-400 transition-colors">Frequently Asked Questions</a></li>
+                            <li><a href="#contact" class="hover:text-gold-400 transition-colors">Book Now & Contact</a></li>
                         </ul>
                     </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Wedding%20Entry%20service!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Wedding Entry
-                    </a>
+
+                    <!-- Contact & Location Box -->
+                    <div class="md:col-span-4 space-y-4">
+                        <h4 class="text-white font-royal font-bold text-base tracking-wider">Service Locations & Contact</h4>
+                        <div class="p-5 rounded-2xl bg-dark-900 border border-amber-500/20 space-y-3">
+                            <div class="text-gold-400 font-bold text-sm flex items-center gap-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Locations: Nagpur | Kamptee</span>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Serving all wedding venues, lawns, and hotels across Nagpur district and Kamptee area.
+                            </p>
+                            <div class="pt-2 border-t border-amber-500/10 flex items-center justify-between text-xs">
+                                <span class="text-slate-400">Direct Helpline:</span>
+                                <a href="tel:7020729676" class="text-gold-400 font-bold hover:underline">7020729676</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- 2. Pyro Service -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/cold_pyro.jpg" alt="Pyro Service Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Stage Show</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-fire-flame-curved text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Pyro Service</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Stage Pyrotechnics • Fanwheels • Sparks</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Spectacular pyrotechnic displays for stage entries, ring exchange, and varmala moments. Safe, smokeless indoor sparklers and outdoor fireworks displays.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Indoor-safe sparkler fountains</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Rotating fanwheel pyro setups</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Remote wireless trigger control</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Pyro%20Service!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Pyro Service
-                    </a>
-                </div>
-
-                <!-- 3. Couple Entry -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/couple_entry.jpg" alt="Couple Entry Effects Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Trending</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-heart text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Couple Entry</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Revolving Stage • Fog • Balloon Release</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Unforgettable couple entry concepts featuring rotating stages, floating cloud matka fog, paper blasts, and synchronized cold sparkler tunnels.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Hydraulic revolving couple platform</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Floor-hugging dry ice clouds</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Elegant balloon drop & rose petal rain</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Couple%20Entry!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Couple Entry
-                    </a>
-                </div>
-
-                <!-- 4. Event Planning -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/decor_stage.jpg" alt="Event Planner Kamptee" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">End-To-End</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-clipboard-list text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Event Planning</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Bespoke Weddings • Full Coordination</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Complete wedding management in Nagpur & Kamptee. We handle timeline, vendor setup, entry choreography, and seamless execution so you can relax.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Dedicated event manager</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> On-site coordination team</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Customized wedding themes</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20discuss%20Event%20Planning!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Inquire Event Planning
-                    </a>
-                </div>
-
-                <!-- 5. Wedding Effects -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/dj_lighting.jpg" alt="Wedding Effects Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Visual FX</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-wand-magic-sparkles text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Wedding Effects</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">CO2 Guns • Confetti Blast • Bubble Storm</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            High-energy visual effects including CO2 jet cannons, metallic confetti showers, snow machines, and bubble fog for sangeet & varmala.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> CO2 jet cryo blast guns</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Metallic gold paper blasts</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Bubble and snow shower machines</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Wedding%20Effects!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Visual Effects
-                    </a>
-                </div>
-
-                <!-- 6. Cold Pyro -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/cold_pyro.jpg" alt="Cold Pyro Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">100% Indoor Safe</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-fire text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Cold Pyro</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Non-Hazardous • Smokeless • Cold Spark</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Guaranteed safety with zero heat and zero smoke. Perfect for indoor AC banquet halls in Nagpur and Kamptee during cake cutting & varmala.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Touch-safe cold sparkler technology</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> No smoke, smell, or toxic fumes</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Safe for clothing & decor</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Cold%20Pyro!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Cold Pyro
-                    </a>
-                </div>
-
-                <!-- 7. Wedding Decoration -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/decor_stage.jpg" alt="Wedding Decoration Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Luxury Decor</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-gem text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Wedding Decoration</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Mandap Decor • Stage • Floral Gates</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Grand wedding stage setup, floral mandap decoration, vintage chandeliers, entrance arches, and royal seating for brides & grooms.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal floral mandap designs</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Warm LED ambient lighting</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Custom backdrop styling</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Wedding%20Decoration!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Decoration
-                    </a>
-                </div>
-
-                <!-- 8. DJ Services -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="pyro">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/dj_lighting.jpg" alt="DJ Services Kamptee" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Sound & Lights</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-compact-disc text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">DJ Services</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Sharpy Lights • Line Array Sound • Truss</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            High-power DJ setup with crisp bass line arrays, intelligent sharpys moving head lights, laser projection, and LED dance floor.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> High-wattage line array bass</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Sharpy beam & spot light shows</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Sangeet & Baraat DJ setup</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20DJ%20Services!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book DJ Setup
-                    </a>
-                </div>
-
-                <!-- 9. Photography Services -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/couple_entry.jpg" alt="Photography Services Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Cinematic</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-camera-retro text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Photography Services</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Cinematic Films • 4K Drone • Reels</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Capture every golden moment in high definition. Candid wedding photography, cinematic teaser films, Instagram reels, and aerial drone footage.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Candid & traditional photos</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> 4K drone entry footage</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Fast teaser reels delivery</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Photography%20Services!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Photography
-                    </a>
-                </div>
-
-                <!-- 10. Luxury Wedding Entries -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="entries">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/vintage_car.jpg" alt="Luxury Wedding Entries Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Royal VIP</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-car-side text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Luxury Wedding Entries</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Vintage Car • Royal Palki • Chariot</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Grand VIP entries featuring classic vintage decorated cars, hydraulic flower palki/palanquin for brides, and royal buggi chariot entries.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Classic vintage decorated cars</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal bridal palki palanquin</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Custom concept designs</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Luxury%20Wedding%20Entries!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Royal Entry
-                    </a>
-                </div>
-
-                <!-- 11. Haldi Mehndi Decoration -->
-                <div class="service-card group rounded-2xl bg-dark-850 gold-border-glow p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5" data-category="decor">
-                    <div>
-                        <div class="h-48 w-full rounded-xl overflow-hidden mb-6 relative">
-                            <img src="assets/haldi_decor.jpg" alt="Haldi Mehndi Decoration Nagpur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
-                            <span class="absolute top-3 left-3 bg-dark-950/80 text-amber-300 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-amber-500/30">Traditional</span>
-                        </div>
-                        <div class="flex items-center gap-3 mb-3">
-                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400">
-                                <i class="fa-solid fa-spa text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-royal font-bold text-white group-hover:text-gold-400 transition-colors">Haldi Mehndi Decoration</h3>
-                                <p class="text-xs text-amber-300/80 font-medium">Marigold Styling • Brass Urli • Cushions</p>
-                            </div>
-                        </div>
-                        <p class="text-slate-300 text-sm mb-4 leading-relaxed font-light">
-                            Bright, joyful Haldi and Mehndi setups filled with yellow marigold garlands, traditional brass urli pots, flower petal shower, and colorful seating.
-                        </p>
-                        <ul class="space-y-2 text-xs text-slate-400 mb-6">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Fresh marigold drapes & backdrop</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Royal yellow seating sofa</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> Brass flower urli setup</li>
-                        </ul>
-                    </div>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20book%20Haldi%20Mehndi%20Decor!" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl border border-amber-500/40 text-amber-300 text-xs font-semibold text-center group-hover:bg-gold-500 group-hover:text-black transition-all flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> Book Haldi Decor
-                    </a>
-                </div>
-
-            </div>
-
-            <!-- Custom Packages Banner -->
-            <div class="mt-16 p-8 rounded-3xl bg-gradient-to-r from-amber-950/60 via-dark-850 to-amber-950/60 border border-amber-500/30 text-center relative overflow-hidden shadow-2xl">
-                <div class="relative z-10 max-w-3xl mx-auto">
-                    <div class="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-gold-400 mx-auto mb-4 text-2xl shadow-[0_0_20px_rgba(212,175,55,0.3)]">
-                        <i class="fa-solid fa-box-open"></i>
-                    </div>
-                    <h3 class="text-2xl sm:text-3xl font-royal font-bold text-white mb-3">Custom Wedding Packages</h3>
-                    <p class="text-slate-300 text-sm sm:text-base font-light mb-6">
-                        Can't find exactly what you need? We create bespoke wedding packages tailored to your unique vision, venue layout, and budget.
+                <!-- SEO Keywords Tag Cloud -->
+                <div class="py-8 text-center border-b border-amber-500/10">
+                    <p class="text-[11px] text-amber-200/60 leading-relaxed max-w-5xl mx-auto tracking-wide">
+                        Wedding Entry Nagpur &bull; Pyro Service Nagpur &bull; Couple Entry Nagpur &bull; Event Planner Kamptee &bull; Wedding Effects Nagpur &bull; Cold Pyro Nagpur &bull; Wedding Decoration Nagpur &bull; DJ Services Kamptee &bull; Photography Services Nagpur &bull; Luxury Wedding Entries &bull; Haldi Mehndi Decoration
                     </p>
-                    <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20need%20a%20Custom%20Wedding%20Package%20for%20my%20event!" target="_blank" rel="noopener noreferrer" class="gold-button inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                        <span>Contact us for custom solutions</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- ================= WHY ROYAL AURA EVENTS SECTION ================= -->
-    <section id="why-us" class="py-20 bg-dark-950 relative z-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Why Choose Us</span>
-                <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
-                    Why <span class="gold-gradient-text">Royal Aura Events?</span>
-                </h2>
-                <p class="text-slate-300 text-base sm:text-lg font-light">
-                    We don't just plan events — we create unforgettable experiences that become cherished memories for a lifetime.
-                </p>
-            </div>
-
-            <!-- 6 Grid Value Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
-                <!-- Card 1 -->
-                <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
-                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
-                        <i class="fa-solid fa-crown"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-royal font-bold text-white mb-2">Premium Wedding Experience</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed">
-                            Every detail is crafted to perfection, ensuring your celebration exudes luxury, elegance, and timeless charm.
-                        </p>
-                    </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
-                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
-                        <i class="fa-solid fa-arrow-trend-up"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-royal font-bold text-white mb-2">Trending Instagram Style Entries</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed">
-                            Create viral-worthy moments with our signature entry concepts that set social media on fire and delight your guests.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
-                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
-                        <i class="fa-solid fa-user-group"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-royal font-bold text-white mb-2">Professional Event Team</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed">
-                            Our experienced team ensures flawless execution and safety, so you can focus on enjoying your special day stress-free.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
-                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
-                        <i class="fa-solid fa-wallet"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-royal font-bold text-white mb-2">Affordable Luxury Packages</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed">
-                            Premium quality doesn't have to break the bank. We offer highly competitive pricing for exceptional, high-end services.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
-                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-royal font-bold text-white mb-2">Complete Wedding Solutions</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed">
-                            From pyrotechnics & dry ice fog to photography and DJ sound, we handle everything under one roof for a seamless experience.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="p-8 rounded-2xl bg-dark-900 border border-amber-500/20 hover:border-amber-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] flex gap-5 items-start">
-                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-royal font-bold text-white mb-2">Service Across Nagpur & Kamptee</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed">
-                            Proudly serving the entire Nagpur and Kamptee regions with prompt on-time setup and reliable event delivery.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= PHOTO & VIDEO GALLERY SECTION ================= -->
-    <section id="gallery" class="py-20 bg-dark-900/60 relative z-10 border-t border-amber-500/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-14">
-                <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Visual Showcase</span>
-                <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
-                    Royal <span class="gold-gradient-text">Moments Gallery</span>
-                </h2>
-                <p class="text-slate-300 text-base font-light">
-                    Take a peak at real wedding entries, cold pyro displays, and luxury decor crafted by Royal Aura Events.
-                </p>
-            </div>
-
-            <!-- Gallery Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                
-                <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
-                    <img src="assets/hero.jpg" alt="Grand Bride & Groom Fog Entry" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
-                        <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Cold Pyro & Fog</span>
-                        <h3 class="text-lg font-royal font-bold text-white">Grand Couple Entrance Walkway</h3>
-                    </div>
-                </div>
-
-                <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
-                    <img src="assets/cold_pyro.jpg" alt="Cold Pyro Sparkler Display" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
-                        <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Indoor Pyrotechnics</span>
-                        <h3 class="text-lg font-royal font-bold text-white">Rotating Pyro Fanwheel Show</h3>
-                    </div>
-                </div>
-
-                <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
-                    <img src="assets/vintage_car.jpg" alt="Vintage Car Bride & Groom Entry" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
-                        <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Luxury Vehicle Entry</span>
-                        <h3 class="text-lg font-royal font-bold text-white">Classic Vintage Car Entry</h3>
-                    </div>
-                </div>
-
-                <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
-                    <img src="assets/haldi_decor.jpg" alt="Traditional Haldi Decoration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
-                        <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Haldi & Mehndi</span>
-                        <h3 class="text-lg font-royal font-bold text-white">Vibrant Marigold Floral Setup</h3>
-                    </div>
-                </div>
-
-                <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
-                    <img src="assets/dj_lighting.jpg" alt="DJ Lighting and Sound Setup" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
-                        <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">DJ & Sharpy Lighting</span>
-                        <h3 class="text-lg font-royal font-bold text-white">Sangeet Concert Night Setup</h3>
-                    </div>
-                </div>
-
-                <div class="group relative rounded-2xl overflow-hidden border border-amber-500/20 h-72 cursor-pointer">
-                    <img src="assets/decor_stage.jpg" alt="Varmala Stage Effects" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity flex flex-col justify-end p-6">
-                        <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider mb-1">Stage & Mandap</span>
-                        <h3 class="text-lg font-royal font-bold text-white">Royal Mandap & Stage Lighting</h3>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= FAQ SECTION ================= -->
-    <section id="faq" class="py-20 bg-dark-950 relative z-10 border-t border-amber-500/10">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-14">
-                <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Got Questions?</span>
-                <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
-                    Frequently Asked <span class="gold-gradient-text">Questions</span>
-                </h2>
-                <p class="text-slate-300 text-sm sm:text-base font-light">
-                    Everything you need to know about booking our cold pyro, luxury entries, and event services in Nagpur & Kamptee.
-                </p>
-            </div>
-
-            <!-- Accordion Items -->
-            <div class="space-y-4">
-                
-                <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
-                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
-                        <span>Is Cold Pyro safe for indoor AC banquet halls?</span>
-                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
-                        Yes, 100%! Cold pyro sparklers emit cold sparks that generate zero smoke, zero heat, and zero toxic fumes. They are completely safe for clothes, skin, and indoor air-conditioned banquet halls.
-                    </div>
-                </div>
-
-                <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
-                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
-                        <span>Do you provide services in both Nagpur and Kamptee?</span>
-                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
-                        Absolutely! We serve all major wedding lawns, banquet halls, and outdoor venues across Nagpur, Kamptee, and nearby regional areas with full logistics and on-time setup.
-                    </div>
-                </div>
-
-                <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
-                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
-                        <span>How far in advance should we book our wedding entry?</span>
-                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
-                        Because prime wedding dates in Nagpur & Kamptee fill up fast, we recommend booking at least 2 to 4 weeks prior to your event date. However, we also accept urgent bookings subject to availability.
-                    </div>
-                </div>
-
-                <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
-                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
-                        <span>Can we customize the entry concept according to our theme?</span>
-                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
-                        Yes! Whether you prefer a traditional royal theme with vintage cars and dhol, or a modern futuristic entry with CO2 cryo guns and rotating pyro fanwheels, we customize every single detail to match your vision.
-                    </div>
-                </div>
-
-                <div class="faq-item rounded-2xl bg-dark-900 border border-amber-500/20 overflow-hidden">
-                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-white font-royal font-bold text-base sm:text-lg hover:text-gold-400 transition-colors">
-                        <span>What is included in the low-fog matka entry effect?</span>
-                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content hidden px-6 pb-6 text-slate-300 text-sm font-light leading-relaxed border-t border-amber-500/10 pt-4">
-                        Our low-fog dry ice machine creates a thick, floor-hugging cloud of white fog that stays low to the ground without rising up into faces or camera lenses. It creates the magical effect of floating on clouds!
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= BOOKING & CONTACT SECTION ================= -->
-    <section id="contact" class="py-20 bg-dark-900 relative z-10 border-t border-amber-500/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400 mb-3 block">Get In Touch</span>
-                <h2 class="text-3xl sm:text-5xl font-royal font-bold text-white mb-4">
-                    Book Your <span class="gold-gradient-text">Royal Experience</span>
-                </h2>
-                <p class="text-slate-300 text-base sm:text-lg font-light">
-                    Ready to make your wedding truly unforgettable? Contact us today for a free consultation and instant WhatsApp quotation.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                
-                <!-- Contact Info Card -->
-                <div class="lg:col-span-5 rounded-3xl bg-dark-850 border border-amber-500/30 p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden">
-                    <div class="absolute -right-16 -bottom-16 w-48 h-48 rounded-full bg-amber-500/10 blur-2xl pointer-events-none"></div>
-
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 shadow-[0_0_15px_rgba(212,175,55,0.3)]">
-                            <i class="fa-solid fa-wand-magic-sparkles"></i>
-                        </div>
-                        <h3 class="text-2xl font-royal font-bold text-white mb-3">Let's Create Magic Together</h3>
-                        <p class="text-slate-300 text-sm font-light leading-relaxed mb-8">
-                            Every celebration deserves to be extraordinary. Share your vision with us, and we'll bring it to life with our signature royal touch.
-                        </p>
-
-                        <div class="space-y-6 mb-8">
-                            
-                            <!-- Phone -->
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 rounded-xl bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 flex-shrink-0">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-slate-400 block font-medium">Direct Phone / Call</span>
-                                    <a href="tel:7020729676" class="text-lg font-bold text-gold-400 hover:underline">7020729676</a>
-                                </div>
-                            </div>
-
-                            <!-- Service Areas -->
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 rounded-xl bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 flex-shrink-0">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-slate-400 block font-medium">Service Areas</span>
-                                    <span class="text-base font-semibold text-slate-200">Nagpur • Kamptee & Surrounding Regions</span>
-                                </div>
-                            </div>
-
-                            <!-- Availability -->
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 rounded-xl bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 flex-shrink-0">
-                                    <i class="fa-solid fa-clock"></i>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-slate-400 block font-medium">Availability</span>
-                                    <span class="text-sm font-medium text-slate-200">Available year-round. Early booking recommended.</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <a href="tel:7020729676" class="gold-button w-full py-4 rounded-2xl text-center text-sm uppercase tracking-wider font-bold flex items-center justify-center gap-3">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>Call Now: 7020729676</span>
-                    </a>
-                </div>
-
-                <!-- Instant WhatsApp Quotation Form -->
-                <div class="lg:col-span-7 rounded-3xl bg-dark-850 border border-amber-500/30 p-8 shadow-2xl">
-                    <h3 class="text-2xl font-royal font-bold text-white mb-2 flex items-center gap-3">
-                        <i class="fa-brands fa-whatsapp text-gold-400 text-3xl"></i>
-                        <span>Instant WhatsApp Booking Request</span>
-                    </h3>
-                    <p class="text-xs text-slate-400 mb-8 leading-relaxed">Select your required services and click send to connect directly on WhatsApp with pre-filled details.</p>
-
-                    <form id="whatsapp-form" class="space-y-6">
-                        
-                        <!-- Row 1: Name & Phone -->
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div>
-                                <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Your Full Name</label>
-                                <input type="text" id="form-name" required placeholder="Enter your full name" class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Mobile Number</label>
-                                <input type="tel" id="form-phone" required placeholder="Enter 10-digit mobile number" class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400">
-                            </div>
-                        </div>
-
-                        <!-- Row 2: Date & Location -->
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div>
-                                <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Event Date</label>
-                                <input type="date" id="form-date" required class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 cursor-pointer">
-                            </div>
-                            
-                            <div>
-                                <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Event Location</label>
-                                <div class="relative w-full">
-                                    <select id="form-location" class="w-full appearance-none pl-4 pr-12 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 cursor-pointer font-medium shadow-inner">
-                                        <option value="Nagpur">Nagpur</option>
-                                        <option value="Kamptee">Kamptee</option>
-                                        <option value="Nearby Region">Nearby Region / Other</option>
-                                    </select>
-                                    <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gold-400 flex items-center justify-center">
-                                        <i class="fa-solid fa-chevron-down text-xs"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Row 3: Select Services Required -->
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-3">Select Required Services</label>
-                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                                
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Wedding Entry" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-crown text-gold-400 text-sm"></i>
-                                        <span class="truncate">Wedding Entry</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Pyro Service" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-fire-flame-curved text-gold-400 text-sm"></i>
-                                        <span class="truncate">Pyro Service</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Couple Entry" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-heart text-gold-400 text-sm"></i>
-                                        <span class="truncate">Couple Entry</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Event Planning" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-clipboard-list text-gold-400 text-sm"></i>
-                                        <span class="truncate">Event Planning</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Wedding Effects" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-wand-magic-sparkles text-gold-400 text-sm"></i>
-                                        <span class="truncate">Wedding Effects</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Cold Pyro" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-fire text-gold-400 text-sm"></i>
-                                        <span class="truncate">Cold Pyro</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Wedding Decoration" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-gem text-gold-400 text-sm"></i>
-                                        <span class="truncate">Wedding Decoration</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="DJ Services" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-compact-disc text-gold-400 text-sm"></i>
-                                        <span class="truncate">DJ Services</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Photography Services" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-camera-retro text-gold-400 text-sm"></i>
-                                        <span class="truncate">Photography</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group">
-                                    <input type="checkbox" value="Luxury Wedding Entries" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-car-side text-gold-400 text-sm"></i>
-                                        <span class="truncate">Luxury Entry</span>
-                                    </div>
-                                </label>
-
-                                <label class="service-pill-checkbox cursor-pointer relative group sm:col-span-2 lg:col-span-2">
-                                    <input type="checkbox" value="Haldi Mehndi Decoration" class="sr-only service-checkbox">
-                                    <div class="flex items-center gap-2.5 p-3 rounded-xl bg-dark-900 border border-amber-500/20 text-xs text-slate-300 transition-all">
-                                        <i class="fa-solid fa-spa text-gold-400 text-sm"></i>
-                                        <span class="truncate">Haldi Mehndi Decor</span>
-                                    </div>
-                                </label>
-
-                            </div>
-                        </div>
-
-                        <!-- Row 4: Custom Message -->
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-amber-300 mb-2">Venue Name / Specific Requests</label>
-                            <textarea id="form-message" rows="3" placeholder="Enter venue name in Nagpur or Kamptee, estimated guest count, or special preferences..." class="w-full px-4 py-3.5 rounded-xl bg-dark-900 border border-amber-500/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400"></textarea>
-                        </div>
-
-                        <button type="submit" class="gold-button w-full py-4.5 rounded-2xl text-sm font-bold uppercase tracking-wider flex items-center justify-center gap-3 shadow-[0_0_25px_rgba(212,175,55,0.3)]">
-                            <i class="fa-brands fa-whatsapp text-2xl"></i>
-                            <span>Send WhatsApp Booking Request</span>
-                        </button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= FOOTER SECTION ================= -->
-    <footer class="bg-dark-950 text-slate-400 py-16 border-t border-amber-500/20 relative z-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <!-- Top Footer Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-amber-500/10">
-                
-                <!-- Brand Info -->
-                <div class="md:col-span-5 space-y-4">
-                    <a href="#home" class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full border border-amber-500/40 bg-dark-900 flex items-center justify-center text-gold-400">
-                            <i class="fa-solid fa-crown text-lg"></i>
-                        </div>
-                        <span class="text-2xl font-royal tracking-wider font-bold">
-                            <span class="text-white">Royal</span><span class="gold-gradient-text ml-1.5">Aura</span> <span class="text-sm font-normal text-amber-200/80">Events</span>
-                        </span>
-                    </a>
-                    <p class="text-slate-300 text-sm leading-relaxed max-w-sm font-light">
-                        Turning Weddings Into Royal Celebrations. Premier providers of grand entries, cold pyrotechnics, heavy low fog, DJ audio-visual setups, and luxury decorations in Nagpur & Kamptee.
+                <!-- Disclaimer & Copyright Line -->
+                <div class="pt-8 text-center text-xs text-slate-400 flex flex-col items-center justify-center gap-3">
+                    <p class="text-[11px] text-slate-400/80 italic max-w-4xl mx-auto leading-relaxed">
+                        * Disclaimer: Images and visual concepts shown on this website are for illustrative and representation purposes only. Actual entry setups, cold pyro effects, and event decorations may vary based on venue layout, custom preferences, and package selection.
                     </p>
-                    <div class="flex items-center gap-4 pt-2">
-                        <a href="https://wa.me/917020729676" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-black transition-all">
-                            <i class="fa-brands fa-whatsapp text-lg"></i>
-                        </a>
-                        <a href="tel:7020729676" class="w-10 h-10 rounded-full bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-black transition-all">
-                            <i class="fa-solid fa-phone text-base"></i>
-                        </a>
-                        <a href="#contact" class="w-10 h-10 rounded-full bg-dark-900 border border-amber-500/20 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-black transition-all">
-                            <i class="fa-solid fa-envelope text-base"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Quick Navigation Links -->
-                <div class="md:col-span-3 space-y-3">
-                    <h4 class="text-white font-royal font-bold text-base tracking-wider">Quick Navigation</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="#home" class="hover:text-gold-400 transition-colors">Home</a></li>
-                        <li><a href="#services" class="hover:text-gold-400 transition-colors">Our 11 Signature Services</a></li>
-                        <li><a href="#why-us" class="hover:text-gold-400 transition-colors">Why Royal Aura Events</a></li>
-                        <li><a href="#gallery" class="hover:text-gold-400 transition-colors">Event Gallery</a></li>
-                        <li><a href="#faq" class="hover:text-gold-400 transition-colors">Frequently Asked Questions</a></li>
-                        <li><a href="#contact" class="hover:text-gold-400 transition-colors">Book Now & Contact</a></li>
-                    </ul>
-                </div>
-
-                <!-- Contact & Location Box -->
-                <div class="md:col-span-4 space-y-4">
-                    <h4 class="text-white font-royal font-bold text-base tracking-wider">Service Locations & Contact</h4>
-                    <div class="p-5 rounded-2xl bg-dark-900 border border-amber-500/20 space-y-3">
-                        <div class="text-gold-400 font-bold text-sm flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Locations: Nagpur | Kamptee</span>
-                        </div>
-                        <p class="text-xs text-slate-300 leading-relaxed">
-                            Serving all wedding venues, lawns, and hotels across Nagpur district and Kamptee area.
-                        </p>
-                        <div class="pt-2 border-t border-amber-500/10 flex items-center justify-between text-xs">
-                            <span class="text-slate-400">Direct Helpline:</span>
-                            <a href="tel:7020729676" class="text-gold-400 font-bold hover:underline">7020729676</a>
-                        </div>
+                    <div class="w-full pt-4 border-t border-amber-500/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <p>&copy; 2026 Royal Aura Events. All rights reserved.</p>
+                        <p class="text-amber-300/80 font-medium">Locations: Nagpur | Kamptee</p>
                     </div>
                 </div>
 
             </div>
+        </footer>
 
-            <!-- SEO Keywords Tag Cloud -->
-            <div class="py-8 text-center border-b border-amber-500/10">
-                <p class="text-[11px] text-amber-200/60 leading-relaxed max-w-5xl mx-auto tracking-wide">
-                    Wedding Entry Nagpur &bull; Pyro Service Nagpur &bull; Couple Entry Nagpur &bull; Event Planner Kamptee &bull; Wedding Effects Nagpur &bull; Cold Pyro Nagpur &bull; Wedding Decoration Nagpur &bull; DJ Services Kamptee &bull; Photography Services Nagpur &bull; Luxury Wedding Entries &bull; Haldi Mehndi Decoration
-                </p>
-            </div>
-
-            <!-- Copyright Line -->
-            <div class="pt-8 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <p>&copy; 2026 Royal Aura Events. All rights reserved.</p>
-                <p class="text-amber-300/80 font-medium">Locations: Nagpur | Kamptee</p>
-            </div>
-
-        </div>
-    </footer>
-
+    </div>
 
     <!-- ================= STICKY FLOATING WHATSAPP BUTTON ================= -->
     <a href="https://wa.me/917020729676?text=Hi%20Royal%20Aura%20Events,%20I%20want%20to%20inquire%20about%20booking!" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-3xl shadow-[0_0_25px_rgba(16,185,129,0.5)] hover:scale-110 transition-transform duration-300 group">
         <i class="fa-brands fa-whatsapp"></i>
-        <span class="absolute right-16 top-2 bg-dark-900 text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-amber-500/30 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">Chat with Us</span>
+        <span class="absolute right-full mr-3 top-2 bg-dark-900 text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-amber-500/30 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-lg pointer-events-none">Chat with Us</span>
     </a>
 
 </body>

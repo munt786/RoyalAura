@@ -112,19 +112,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ================= 5. LIVE GOLD FIREWORKS & SPARKLER CANVAS =================
+    // ================= 5. LIVE GOLD FIREWORKS & SPARKLER CANVAS ENGINE =================
     const canvas = document.getElementById('fireworks-canvas');
     if (canvas && canvas.parentElement) {
         const ctx = canvas.getContext('2d');
-        let width = canvas.width = canvas.parentElement.offsetWidth;
-        let height = canvas.height = canvas.parentElement.offsetHeight;
-
-        window.addEventListener('resize', () => {
-            if (canvas.parentElement) {
-                width = canvas.width = canvas.parentElement.offsetWidth;
+        
+        function resizeCanvas() {
+            if (canvas && canvas.parentElement) {
+                const parentW = canvas.parentElement.offsetWidth;
+                const winW = window.innerWidth || document.documentElement.clientWidth;
+                width = canvas.width = Math.min(parentW, winW);
                 height = canvas.height = canvas.parentElement.offsetHeight;
             }
-        });
+        }
+
+        let width = 0;
+        let height = 0;
+        resizeCanvas();
+
+        window.addEventListener('resize', resizeCanvas);
 
         class Particle {
             constructor(x, y, color) {
@@ -174,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Periodic random background fireworks launch
         setInterval(() => {
-            if (Math.random() < 0.7) {
+            if (width > 0 && Math.random() < 0.7) {
                 const rx = Math.random() * (width * 0.8) + (width * 0.1);
                 const ry = Math.random() * (height * 0.5) + (height * 0.1);
                 createFirework(rx, ry);
